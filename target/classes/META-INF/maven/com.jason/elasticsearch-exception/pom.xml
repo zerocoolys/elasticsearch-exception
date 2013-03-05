@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.jason</groupId>
+	<artifactId>elasticsearch-exception</artifactId>
+	<version>0.1</version>
+	<name>Exception reader for ElasticSearch</name>
+	<properties>
+		<elasticsearch.version>0.20.4</elasticsearch.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.elasticsearch</groupId>
+			<artifactId>elasticsearch</artifactId>
+			<version>${elasticsearch.version}</version>
+			<scope>compile</scope>
+		</dependency>
+	</dependencies>
+</project>

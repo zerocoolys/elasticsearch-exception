@@ -29,8 +29,8 @@ public class RestExceptionHandler extends BaseRestHandler {
 
 	public void handleRequest(RestRequest request, RestChannel channel) {
 		String logPath = settings.get("path.logs");
-
-		File logFile = new File(logPath);
+		String nodeName = settings.get("cluster.name");
+		File logFile = new File(logPath + File.separator + nodeName + ".log");
 		FileChannel fileChannel = null ;
 		FileInputStream fis = null;
 		try {

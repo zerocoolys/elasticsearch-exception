@@ -2,7 +2,6 @@ package com.jason.es.rest;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
@@ -14,7 +13,6 @@ import org.elasticsearch.rest.BaseRestHandler;
 import org.elasticsearch.rest.RestChannel;
 import org.elasticsearch.rest.RestController;
 import org.elasticsearch.rest.RestRequest;
-import org.elasticsearch.rest.RestResponse;
 import org.elasticsearch.rest.RestStatus;
 import org.elasticsearch.rest.StringRestResponse;
 import org.elasticsearch.rest.XContentThrowableRestResponse;
